@@ -1,0 +1,12 @@
+3. src/main/resocures에서
+	package com.naver.myhome4.mybatis.mapper;와 동일한 폴더를 생성합니다.
+	
+  단, 폴더를 한 단계식 차례대로 만들어야 합니다.
+  src/main/resources에서 우 클릭 -> New -> Folder -> Spring4_MVC_BOARD/src/main/resources 아래 com
+  src/main/resources에서 우 클릭 -> New -> Folder -> Spring4_MVC_BOARD/src/main/resources 아래 com 아래 naver
+  src/main/resources에서 우 클릭 -> New -> Folder -> Spring4_MVC_BOARD/src/main/resources 아래 com/naver 아래 myhome4
+  src/main/resources에서 우 클릭 -> New -> Folder -> Spring4_MVC_BOARD/src/main/resources 아래 com/naver/myhome4 아래 mybatis
+  src/main/resources에서 우 클릭 -> New -> Folder -> Spring4_MVC_BOARD/src/main/resources 아래 com/naver/myhome4/mybatis 아래 mapper
+  Spring4_MVC_BOARD/src/main/resources/com/naver/myhome4/mybatis/mapper 아래에 BoardMapper.xml 위치합니다
+  Spring4_MVC_BOARD/src/main/resources/com/naver/myhome4/mybatis/mapper 아래에 MemberMapper.xml 위치합니다
+  Spring4_MVC_BOARD/src/main/resources/com/naver/myhome4/mybatis/mapper 아래에 CommentsMapper.xml 위치합니다

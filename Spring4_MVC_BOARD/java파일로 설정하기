@@ -1,0 +1,25 @@
+톰캣 서버 Stop합니다.
+
+1. pom.xml에 web.xml을 사용하지 않는다고 설정해야 합니다.
+   아래 부분 추가
+   
+   <!--  web.xml 사용하지 않겠다고 설정합니다. -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.2.0</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+			<!-- 라이브러리 변경	-->
+			<dependency>
+		  <groupId>org.apache.commons</groupId>
+		  <artifactId>commons-dbcp2</artifactId>
+		  <version>2.6.0</version>
+		</dependency>
+
+2. web.xml 삭제합니다.
+
+3. WEB-INF/spring 폴더 삭제
+	root-context.xml과 servlet-context.xml 삭제   
